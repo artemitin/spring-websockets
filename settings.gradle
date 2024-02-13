@@ -1,0 +1,4 @@
+rootProject.name = 'spring-websockets'
+include 'client', 'server'
+include 'shared'
+
