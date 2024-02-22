@@ -2,20 +2,20 @@ package org.example.shared;
 
 public class ResponseMessage {
 
-    private String response;
+    private String content;
 
     public ResponseMessage() {
     }
 
-    public ResponseMessage(String response) {
-        this.response = response;
+    public ResponseMessage(String content) {
+        this.content = content;
     }
 
-    public String getResponse() {
-        return response;
+    public String getContent() {
+        return content;
     }
 
-    public void setResponse(String response) {
-        this.response = response;
+    public void setContent(String content) {
+        this.content = content;
     }
 }
